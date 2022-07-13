@@ -10,20 +10,17 @@
     [
       "Jerome Fernandez",
       `UX designer`,
-      `I am aspiring graphic designer and brandeveloper based in London, Ontario, Canada.
-		For me, designing is solving visual problems. I work with my team in Fanshawe College to help businesses' visualize their brand identity and reach out to their target audience in the smoothest way. To achieve these, I focus on working closely with teammates to find the best marketing strategy solutions.
-		Aside from graphic design, I have expertise in illustration and motion graphic.
-		Tools frequently used in my projects:`,
+      `laksdflkasdfllasdkf lskdfla lasd lsad flsd jlsdkfj`,
     ],
 
     [
       "Pawan Pandeya",
       `Developer`,
-      `This is information of the developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+      `Tsadf asdf as a as dsadfasf sdfasfasdf asdf.`,
     ],
   ];
 
-  debugger;
+  // debugger;
   function showBioInfo() {
     arrayIndex = this.dataset.arrayref;
     name.innerText = dynaTeam[arrayIndex][0];
