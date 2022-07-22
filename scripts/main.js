@@ -9,14 +9,15 @@
   const dynaTeam = [
     [
       "Jerome Fernandez",
-      `UX designer`,
-      `laksdflkasdfllasdkf lskdfla lasd lsad flsd jlsdkfj`,
+      `UXUI Designer`,
+      ` I always want to be a full stack UXUI Designer, I know in my mind that I can, I just need to unlock the tools that I need and I'll do the rest.
+      `,
     ],
 
     [
-      "Pawan Pandeya",
-      `Developer`,
-      `Tsadf asdf as a as dsadfasf sdfasfasdf asdf.`,
+      "Pawan Pandey",
+      `Photographer`,
+      `Photography has always been my passion now. I enjoy taking photos capturing moments and remembering the moments captured in the photo.`,
     ],
   ];
 
@@ -29,12 +30,12 @@
   }
 
   function changeImageDes() {
-    document.getElementById("defaultImg").src = "images/profile-pic-1.png";
+    document.getElementById("defaultImg").src = "images/bg2.jpg";
     skillsIcon.style.visibility = "visible";
   }
 
   function changeImageDev() {
-    document.getElementById("defaultImg").src = "images/profile-pic-2.png";
+    document.getElementById("defaultImg").src = "images/bg1.jpg";
     skillsIcon.style.visibility = "hidden";
   }
 
