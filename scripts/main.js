@@ -3,7 +3,6 @@
   const contents = document.querySelector(".detail"); // members detail
   const position = document.querySelector(".teamInfo h3"); //members position
   const buttons = document.querySelectorAll(".bioSwitcher button"); //buttons
-  const skillsIcon = document.querySelector("#skillsIcon"); //icons
   const des = document.querySelector("#profileJer"); //profile 1
   const dev = document.querySelector("#profilePwn"); //profile 2
   const dynaTeam = [
@@ -31,12 +30,12 @@
 
   function changeImageDes() {
     document.getElementById("defaultImg").src = "images/bg2.jpg";
-    skillsIcon.style.visibility = "visible";
+
   }
 
   function changeImageDev() {
     document.getElementById("defaultImg").src = "images/bg1.jpg";
-    skillsIcon.style.visibility = "hidden";
+
   }
 
   buttons.forEach((button) => button.addEventListener("click", showBioInfo));
